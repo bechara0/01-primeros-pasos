@@ -10,6 +10,7 @@ function App() {
 				<p>Bienvenido al Master en React</p>
 				{/*cargar primer componente*/}
 				<MiComponente />
+				<MiComponente />
 			</header>
 		</div>
 	);
