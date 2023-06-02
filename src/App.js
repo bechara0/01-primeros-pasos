@@ -3,6 +3,7 @@ import "./App.css";
 import MiComponente from "./MiComponente";
 import SegundoComponente from "./SegundoComponente";
 import { TercerComponente } from "./TercerComponente";
+import { EventosComponente } from "./EventosComponente";
 
 function App() {
 	const ficha_medica = {
@@ -19,11 +20,9 @@ function App() {
 				{/*cargar primer componente*/}
 				<div className="componentes">
 					<hr />
-					<TercerComponente
-						nombre="Juan"
-						apellidos="Bechara Baladi"
-						ficha={ficha_medica}
-					/>
+					<EventosComponente />
+					<hr />
+					<TercerComponente ficha={ficha_medica} />
 					<hr />
 					<SegundoComponente />
 					<hr />
