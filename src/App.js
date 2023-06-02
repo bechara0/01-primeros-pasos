@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import MiComponente from "./MiComponente";
+import SegundoComponente from "./SegundoComponente";
 
 function App() {
 	return (
@@ -9,8 +10,12 @@ function App() {
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>Bienvenido al Master en React</p>
 				{/*cargar primer componente*/}
-				<MiComponente />
-				<MiComponente />
+				<div className="componentes">
+					<hr />
+					<SegundoComponente />
+					<hr />
+					<MiComponente />
+				</div>
 			</header>
 		</div>
 	);
